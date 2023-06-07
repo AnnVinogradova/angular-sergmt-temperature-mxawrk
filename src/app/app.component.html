@@ -1,0 +1,7 @@
+<h1>The The Rick and Morty API</h1>
+<nav>
+  <a routerLink="/character">Characters</a>
+  <a routerLink="/location">Locations</a>
+</nav>
+<character *ngFor="let c of characters" [character]="c"></character>
+
